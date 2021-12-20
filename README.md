@@ -1,5 +1,5 @@
 # Megacard-I2C-Display
-Library for use with I2C Display based on PCF8574 and HD44780 (2 lines, 16 characters).
+Library for Display based on PCF8574 and HD44780 (2 lines, 16 characters) and AVR Mega16 (12 MHz).
 
 ![Megacard](megacard.png)
 
@@ -14,13 +14,13 @@ How to start:
 * Display SDA to Megacard PORT C Bit 1
 * Display SCL to Megacard PORT C Bit 0
 
-** Remove LED Jumper (X9) ** - otherwise it will not work
+**Remove LED Jumper (X9)** - otherwise it will not work
 
 ## Available commands
-``void lcd_init()`` - initialise I2C and the display
-``void lcd_clear()`` - clear content of display
-``void lcd_printf(uint8_t line, uint8_t position, char *message, ...)`` - use like `printf` to output a string to the given line and position
-``void lcd_light(uint8_t on)`` - turn on backlight if `on` is other than 0
+- ``void lcd_init()`` - initialise I2C and the display
+- ``void lcd_clear()`` - clear content of display
+- ``void lcd_printf(uint8_t line, uint8_t position, char *message, ...)`` - use like `printf` to output a string to the given line and position
+- ``void lcd_light(uint8_t on)`` - turn on backlight if `on` is other than 0
 
 ## Example
 ```c
