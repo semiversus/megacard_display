@@ -1,6 +1,8 @@
 # Megacard-I2C-Display
 Library for use with I2C Display based on PCF8574 and HD44780 (2 lines, 16 characters).
 
+![Megacard](megacard.png)
+
 How to start:
 * Add `megacard_lcd.c` and `megacard_lcd.h` to your project
 * Connect display (see "Connection")
