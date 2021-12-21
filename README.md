@@ -1,6 +1,8 @@
 # Megacard-I2C-Display
 Library for Display based on PCF8574 and HD44780 (2 lines, 16 characters) and AVR Mega16 (12 MHz).
 
+This library is based on the work of Nico Eichelmann and Thomas Eichelmann (2006), clean up by Falk Brunner (2014) and the I²C library by Peter Fleury.
+
 ![Megacard](megacard.png)
 
 How to start:
